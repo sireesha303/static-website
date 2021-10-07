@@ -1,38 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
-.bg_container {
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/todolistbg.png");
-    background-size: cover;
+.bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
     height: 100vh;
-    width: 100vh;
+    background-size: cover;
 }
 
-.heading {
-    color: white;
-    text-align: center;
-    font-family: Roboto;
-    padding: 3px;
+.order-card {
+    background-color: #f6c56e;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 24px;
 }
 
-.content {
-    color: white;
-    font-family: Roboto;
+.order-card-heading {
+    font-family: "Bree Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #323f4b;
 }
 
-.button {
-    background-color: orange;
-    color: white;
-    align-items: center;
-    height: 30px;
-    width: 70px;
+.order-card-paragraph {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #323f4b;
 }
 
-.link {
-    color: white;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.button-space{
-     text-align:center
+.order-card-button {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 0px;
+    width: 120px;
+    height: 38px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
 }
