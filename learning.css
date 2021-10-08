@@ -1,65 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
-
-.bg-top-section {
-    background-color:#fb4e71;
-    height: 40vh;
-    padding: 20px;
+.bottom-section-container{
 }
 
-.top-section-heading {
-    font-family: Roboto;
-    color: white;
-   margin:20px;
+.carousel-dimensions{
+     height:1vh;
 }
-
-.top-section-paragraph {
-    font-family: Roboto;
-    font-size: 17px;
-    color: white;
-    margin:20px;
+.goa-card-container{
+    padding:20px;
+    margin:7px;
 }
-
-.bg-bottom-section {
-    background-color: #e6f6ff;
-    padding: 20px;
+.goa-card-heading{
+    font-family:Roboto;
+    font-size:30px;
+    color:#323f4b;
+    font-weight:bold;
 }
-
-.bottom-section-heading {
-    font-family: Roboto;
-    color: #323f4b;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 10px;
+.goa-card-paragraph{
+    font-family:Roboto;
+    font-size:23px;
+    color:#9aa5b1;
 }
-
-.middle-card {
-    background-color: white;
-    border-radius: 10px;
+.more-pictures-spacing{
+    width:200px;
+    height:200px;
+    margin:7px;
 }
-
-.middle-card-content {
-    padding: 10px;
-
+.video-spacing{
+    margin:7px;
+   height:200px;
+  width:200px;
 }
-
-.middle-card-heading {
-    font-size: 20px;
-}
-
-.middle-card-paragraph {
-    font-size: 17px;
-    color: #888888;
-}
-
-.videos-card {
-    margin: 10px;
-}
-
-.videos-card-content {
-    color: #323f4b;
-    font-size: 12px;
-}
-
-.button-alignment {
-    text-align: center;
+.video-alingnment{
+    border-radius:15px;
 }
