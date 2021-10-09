@@ -1,15 +1,11 @@
-Project Name: Goa page
+Project Name: The Things Conference Website
 
 Learnings:
-1. Boot strap Carousel learning
-2. Embeding video into web page
+Web pages Integration using following attributes
+1."Id" attribute of HTML element
+2. Button "onclick" attribute
 
 Resources:
-Carousel 
-https://getbootstrap.com/docs/5.1/components/carousel/
-
-video embeding
-https://getbootstrap.com/docs/4.6/utilities/embed/
-
+none
 
 Note: Used Bootstrap version 4.6x
