@@ -1,48 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
-.conference-home-image {
-    width: 100vw;
-}
-
-.text-container {
+.articles-home-bg-container {
+    background-color: #d9d97c;
     padding: 20px;
     text-align: center;
-    margin:30px;
+    height:100vh;
 }
 
-.home-page-heading {
+.home-heading {
+    color: white;
     font-family: Roboto;
-    color: #183b56;
-    font-weight: bold;
-}
-
-.home-page-paragraph {
-    color: #5a7184;
-    font-family: Roboto;
-}
-
-.home-page-button {
-    margin: 25px;
-}
-
-.details-page-text-container {
-    padding: 20px;
-    text-align: center;
-}
-
-.details-page-heading {
-    font-family: Roboto;
-    color: #183b56;
-    font-weight: bold;
     font-size: 40px;
 }
 
-.details-page-paragaph {
+.home-paragraph {
+    color: white;
     font-family: Roboto;
-    color: #5a7184;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-.container-stats {
-    margin: 25px;
+.category-section {
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.detailed-page-bg {
+    background-color: #d9d97c;
+    padding: 20px;
+}
+.detailed-page-heading{
+    color:white;
+    font-size:50px;
+    
+}
+.detailed-page-list{
+    color:white;
+    font-size:19px;
+}
+.button-alignment{
+    text-align:center;
+}
+.button{
+    background-color:#d9d97c;
+    border-width: 2px;
+    border-color: white;
+    color:white;
+}
+
+.carousel .carousel-item {
+  height: 550px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 550px;
+}
+.detailed-page-text-container{
+ margin:30px;
 }

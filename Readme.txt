@@ -1,11 +1,12 @@
-Project Name: The Things Conference Website
+Project Name: Articles Page
 
 Learnings:
-Web pages Integration using following attributes
-1."Id" attribute of HTML element
-2. Button "onclick" attribute
+How to decrease the Bootsrap carousel height without modifying the width.
+Hyperlinks creation (In technology page created).
+Adding image and Text in HTML button element.
+
 
 Resources:
-none
+https://stackoverflow.com/questions/28589911/bootstrap-change-carousel-height
 
 Note: Used Bootstrap version 4.6x
